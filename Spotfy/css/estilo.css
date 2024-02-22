@@ -1,0 +1,189 @@
+ html, #home, body{
+    height: 100%;
+    overflow-x: hidden;
+
+ }
+ body{
+    background: url(../imagens/capa.png) , 
+    url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+
+ nav.navbar-transparente{
+    background-color: rgb(0,0,0,0.6);
+    padding: 15px, 15px;
+
+ }
+
+ .navbar-expand-md .navbar-nav .nav-link{
+    color: white;
+ }
+
+ .navbar-expand-md .navbar-nav .nav-link:hover{
+    color: rgb(54, 58, 71);
+ }
+
+ .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255,255,255,0.5);
+ }
+
+ .btn-custom{
+    color:white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    
+    padding: 10px 15px;
+
+ }
+
+ .btn-roxo{
+    background-color: #7c26f8;
+ }
+ .btn-roxo:hover{
+    background-color: #6207e3;
+    color:white;
+ }
+
+ .btn-branco{
+    border: 1px solid;
+ }
+ .btn-branco:hover{
+    background-color: white;
+    color:black;
+ }
+
+ .capa{
+    text-align: center;
+ }
+
+ /*------Tipografia---*/
+ h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color:white;
+ }
+
+ h2{
+    font-size: 3m;
+    font-weight: 700;
+    
+ }
+
+ h3{
+    font-size: 2m;
+    font-weight: 700;
+    
+ }
+
+ #info{
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+ #info h2{
+   color:#9bf0f8
+   
+ }
+
+
+
+
+
+
+ 
+/*--// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 2m;
+    }
+
+ }
+
+/*`md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    h1{
+        font-size: 3m;
+    }
+
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    h1{
+        font-size: 3m;
+    }
+ }
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    h1{
+        font-size: 3m;
+    }
+
+ }
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+    h1{
+        font-size: 3m;
+    }
+
+ }
+
+ 
+ /*Estilos de conteúdo*/
+
+ #servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+ .albuns{
+    padding: 10px 0;
+    
+ }
+
+ 
+ /*Estilos Gerais*/
+
+ .rotacionar{
+    
+    transform: rotate(30deg);
+    padding-left: 30px;
+ }
+
+ /*rodape*/
+ footer{
+   background: black;
+   padding:  50px 0px 20px 0px;
+   position: relative;
+ }
+
+ footer h4{
+   color: #919496;
+   font-size: 0.8em;
+   
+ }
+
+ footer .navbar-nav a{
+   color: white;
+   font-size: 0.8em;
+   
+ }
+
+ footer .navbar-nav a:hover{
+   color: rgb(236, 34, 209);
+   text-decoration: none;
+   
+
+   
+ }
+
+
+  
